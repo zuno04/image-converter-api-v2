@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Body, Request, UploadFile, File
 from typing import List, Optional
-#from .library.iconverter import CustomImage
-import library.iconverter
+from .library.iconverter import CustomImage
 from random import randint
 from pprint import pprint
 import json
